@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: socialMediaApp
+  data:
+    mongodb:
+      uri: mongodb+srv://nayeebhautik:mwhCiZQrsLv2NnWh@cluster0.8z3mt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: postdb
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+
+weather_api_key: "e46a5bb85bf582ed847654e5e9126ab2"
